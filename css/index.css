@@ -311,18 +311,16 @@ header .logo {
 @media (max-width: 500px) {
     .main-content .middle-img {
         margin: 27px 0 0 0;
+    }
 }
-
 .main-content .bottom-content {
     display: flex;
-    background: red;
 }
 
 @media (min-width: 800px) {
     .main-content .bottom-content {
         display: flex;
         flex-direction: row;
-        background: red;
     }
 }
 
