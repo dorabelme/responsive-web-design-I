@@ -200,6 +200,13 @@ header .logo {
     }
 }
 
+@media (max-width: 500px) {
+    .cta {
+        width: 100%;
+        margin: 10px 0 0 0px;  
+    }
+}
+
 .cta .cta-text {
     font-size: 72px;
     text-align: center;
@@ -229,12 +236,7 @@ header .logo {
     }
 }
 
-@media (max-width: 500px) {
-    .cta {
-        width: 100%;
-        margin: 10px 0 0 0px;  
-    }
-}
+
 
 
 .cta .cta-text button {
@@ -266,7 +268,7 @@ header .logo {
 @media (max-width: 800px) {
     .main-content {
         width: 100%;
-        margin: 75px 0px 38px 0px;
+        margin: 75px 0px 36px 0px;
         padding-bottom: 35px;
         padding-top: 12px;
     }
@@ -274,10 +276,13 @@ header .logo {
 
 @media (max-width: 500px) {
     .main-content {
-        margin: 75px 20px 0 20px;
+        width: 92%;
+        margin: 75px auto 0 auto;
         padding-bottom: 35px;
+        padding-top: 30px;
     }
 }
+
 .main-content .top-content {
     display: flex;
 }
@@ -293,8 +298,16 @@ header .logo {
     .main-content .top-content {
         display: flex;
         flex-direction: column;
+        padding-top: 7px;
+
+    }
+
+    .main-content .top-content p {
+        padding-right: 30px;
     }
 }
+
+
 
 .main-content .middle-img {
     display: flex;
@@ -306,15 +319,17 @@ header .logo {
     .main-content .middle-img {
         width: 100%;
         margin: 5px 10px 30px 0;
-
     }
 }
 
 @media (max-width: 500px) {
     .main-content .middle-img {
+        /* padding-left: 10px; */
         margin: 27px 0 0 0;
     }
 }
+
+
 .main-content .bottom-content {
     display: flex;
 }
@@ -348,13 +363,23 @@ header .logo {
     }
 
 @media (max-width: 500px) {
+    .top-content .text-content {
+        margin-top: 20px;
+        margin-bottom: 25px;
+        padding-left: 0px;
+    }
+
     .bottom-content .text-content {
         margin-top: 30px;
         margin-bottom: 30px;
+        padding-left: 0px;
     }
     #last-element {
         margin-top: 35px;
         margin-bottom: 0px;
+    }
+    #middle-element {
+        padding-top:2px;
     }
 }
 
@@ -391,7 +416,7 @@ footer {
 
 @media (max-width: 800px) {
     .contact {
-        margin: 30px 20px 0 10px;
+        margin: 0px 20px 0 10px;
     }
 }
 
