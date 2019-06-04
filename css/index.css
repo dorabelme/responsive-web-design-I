@@ -361,6 +361,7 @@ header .logo {
     .bottom-content .text-content {
         padding-left: 10px;
     }
+}
 
 @media (max-width: 500px) {
     .top-content .text-content {
@@ -443,9 +444,17 @@ footer {
     line-height: 1.3;
 }
 
+
 .services-content .services-header-img {
     margin: 20px 0;
 }
+
+@media (max-width: 500px) {
+    .services-content .services-header-img {
+       width: 92%;
+    }
+}
+
 
 .services-content h1 {
     font-size: 26px;
@@ -509,4 +518,27 @@ footer {
 .services-content .services-info .services-info-img {
   width: 420px;
   height: 300px;
+}
+
+@media (max-width: 800px) {
+    .services-content {
+    justify-content: center;
+    }
+    .services-info{
+        justify-content: center;
+    }
+    .facts {
+        text-align: center;
+    }
+    .services-content .services-info ul {
+        width: 150px;
+        margin: 0 auto;
+        list-style-position: inside;
+    }
+}
+
+@media (max-width: 500px) {
+    .services-content {
+        margin: 0 auto;
+    }
 }
